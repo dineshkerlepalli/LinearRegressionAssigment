@@ -20,7 +20,12 @@ The objective is to model the demand for shared bikes with the available indepen
 ## Conclusions
 - Bike Demand(measured as cnt) is majorly influenced by the feature variables temp, Light Rain, yr, windspeed, winter
 -  cnt exhibits positive correlation with temp, yr and winter and negative correlation with Light Rain, Windspeed 
-- The computed Linear Regression Model is able to explain approximately 78% of variance in bike demand
+- Bike Demand is positively correlated with temp and the model coefficient of 0.52 signify that it is the driver variable which influence bike demand the most
+- Bike Demand has picked up in the year 2019 compared to 2018
+- Bike demand exhibit negative correlation with Mist, WindSpeed and Light Rain which is self explanatory
+- Bike demand gets higher in Aug and Sep months
+- Bike demand gets higher in winter and summer seasons
+- The computed Linear Regression Model is able to explain approximately 79% of variance in bike demand
 - The error/residual terms(Yactual - Ypred) follow normal distribution which satisifies the assumption needed for Linear Regression Modelling
 - The error terms follow homoscedasticity which satisfies another assumption needed for Linear Regression Modelling
 
